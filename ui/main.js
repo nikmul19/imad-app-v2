@@ -12,7 +12,7 @@ if (computerChoice < 0.34) {
 	computerChoice = "scissors";
 }
 console.log("Computer: " + computerChoice);
-/*
+
 function compare(choice1,choice2)
 {
     if(choice1===choice2){
@@ -64,7 +64,7 @@ alert(result);
    var r1=Math.floor(Math.random() * (2) );
 
    //alert(" r1 is "+ r1);
-   if(r1==0){//alert("It's Heads");
+   if(r1===0){//alert("It's Heads");
   document.getElementById("heads").style.visibility='visible';
   document.getElementById("tails").style.visibility='hidden';}
    else
@@ -75,7 +75,7 @@ alert(result);
 if(x==="heads"){ if(document.getElementById("heads").style.visibility=='visible'){alert("you won the toss");} else alert("you lost the toss");}
 if(x==="tails"){ if(document.getElementById("heads").style.visibility=='hidden'){alert("you won the toss");} else alert("you lost the toss");}
  }
-
+/*
  var n =prompt("enter your name");
  document.write(n);
  alert("hello "+n);
