@@ -1,1 +1,1 @@
-prompt("hi");
+alert("hi");
