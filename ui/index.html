@@ -23,7 +23,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <title>Resume</title>
 
   <!-- Load the page styles. -->
-  <link href="css/style.css" rel="stylesheet">
+  <!--link href="css/style.css" rel="stylesheet">
 
 
 
@@ -47,7 +47,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     display by looking at the id or at what's written between the <h2> tags.
     -->
     <label>expenses</lable>
-    <input title="expenses"type="number" id="myexpenses" ></input>
+    <input title="expenses"type="number" id="myexpenses" value="0"/>
     <button id="enter" onclick="sum()" > click me </button>
     <label>final expenditure</label>
     <button id="final" onclick="final()" > click here for final expenditure</button>
@@ -85,7 +85,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
         <ul id="footerContacts" class="flex-box">
       </ul>
     </div>
-  
+  </div>
 
   <!-- "HTML is loaded by the browser in the order it appears in the file. If the JavaScript is loaded first and it is supposed to affect the HTML below it, it might not work, as the JavaScript would be loaded before the HTML it is supposed to work on. Therefore, putting JavaScript near the bottom of the HTML page is often the best strategy."
   https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics -->
@@ -116,7 +116,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   writing. In resumeBuilder.js, you'll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
   -->
-  <script src="js/resumeBuilder.js"></script>
+  <script src="ui/main.js"></script>
 
 
   <!--
@@ -164,6 +164,5 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       document.getElementById('mapDiv').style.display = 'none';
     }
   </script>
-  </div>
 </body>
 </html>
