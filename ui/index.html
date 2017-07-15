@@ -12,7 +12,80 @@
         <div class="center text-big bold">
             Hi! I am your webapp.
         
-        <script>alert("hi ");
+        <script>var userChoice = prompt("Do you choose rock, paper or scissors?");                  //rock paper scissors
+var computerChoice = Math.random();
+if (computerChoice < 0.34) {
+	computerChoice = "rock";
+} else if(computerChoice <= 0.67) {
+	computerChoice = "paper";
+} else {
+	computerChoice = "scissors";
+}
+console.log("Computer: " + computerChoice);
+
+function compare(choice1,choice2)
+{
+    if(choice1===choice2){
+  alert( "The result is a tie!");
+      userChoice=prompt("select another choice");
+      computerChoice = Math.random();
+      if (computerChoice < 0.34) {
+      	computerChoice = "rock";
+      } else if(computerChoice <= 0.67) {
+      	computerChoice = "paper";
+      } else {
+      	computerChoice = "scissors";
+      }
+      console.log("computer "+computerChoice);
+    result=compare(userChoice,computerChoice);
+  alert(result);
+}
+       else if (choice1==="rock"){
+        if(choice2==="scissors")return "rock wins";
+        if(choice2==="paper")return "paper wins";
+
+    }
+    else if(choice1==="paper")
+    {
+        if(choice2==="scissors")return "scissors wins";
+        if(choice2==="rock")return "paper wins";
+}
+else if(choice1==="scissors")
+{
+    if(choice2==="paper")return "scissors wins";
+    if(choice2==="rock")return "rock wins";
+    }
+    else if(choice1!="rock" && choice1!="paper" && choice1!="scissors") {
+        userChoice=prompt("please select appropriate option");
+        console.log(userChoice);
+        console.log(computerChoice);
+        result=compare(userChoice,computerChoice);
+        alert(result);
+    }
+}
+
+var result=  compare(userChoice,computerChoice);
+alert(result);
+
+ function toss()                                         //toss function begins here
+ {
+   var x=prompt("what's your call?");
+
+   var r1=Math.floor(Math.random() * (2) );
+
+   //alert(" r1 is "+ r1);
+   if(r1==0){//alert("It's Heads");
+  document.getElementById("heads").style.visibility='visible';
+  document.getElementById("tails").style.visibility='hidden';}
+   else
+   {   //alert("It's Tails");
+   document.getElementById("tails").style.visibility='visible';
+   document.getElementById("heads").style.visibility='hidden';
+}
+if(x==="heads"){ if(document.getElementById("heads").style.visibility=='visible'){alert("you won the toss");} else alert("you lost the toss");}
+if(x==="tails"){ if(document.getElementById("heads").style.visibility=='hidden'){alert("you won the toss");} else alert("you lost the toss");}
+ }
+
         </script>
         </div>
         <script type="text/javascript" src="/ui/main.js">
