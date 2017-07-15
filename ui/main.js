@@ -12,7 +12,7 @@ if (computerChoice < 0.34) {
 	computerChoice = "scissors";
 }
 console.log("Computer: " + computerChoice);
-
+/*
 function compare(choice1,choice2)
 {
     if(choice1===choice2){
