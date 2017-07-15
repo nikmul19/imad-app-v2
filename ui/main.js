@@ -65,7 +65,7 @@ alert(result);
    var r1=Math.floor(Math.random() * (2) );
 
    //alert(" r1 is "+ r1);
-   if(r1==0){//alert("It's Heads");
+   if(r1===0){//alert("It's Heads");
   document.getElementById("heads").style.visibility='visible';
   document.getElementById("tails").style.visibility='hidden';}
    else
@@ -78,7 +78,7 @@ if(x==="tails"){ if(document.getElementById("heads").style.visibility=='hidden')
  }
 
  var n =prompt("enter your name");
- document.write(n);
+ //document.write(n);
  alert("hello "+n);
   var age=prompt("enter your age");
   if(age>20)
@@ -88,20 +88,17 @@ if(x==="tails"){ if(document.getElementById("heads").style.visibility=='hidden')
   else alert("please don't proceed further");
   var person={name:n,agee:age};
   console.log(person.name, person.agee);
-  var i=1;
-  for (var i = 0; i < 10; i++) {
-    document.write(i+" ");
-  }
+  
  var greeting= function(name)
  {
    alert("you have won a gift by clicking this button");
- }
+ };
  var date = function()
  {
    var d= new Date(2016,6,3,15,50,30,10);
    alert(" value of d is " + d);
    prompt(" the day is " + d.getHours());
- }
+ };
  date();
 
 /*
