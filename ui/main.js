@@ -52,6 +52,7 @@ else if(choice1==="scissors")
         console.log(computerChoice);
         result=compare(userChoice,computerChoice);
         alert(result);
+
     }
 }
 
