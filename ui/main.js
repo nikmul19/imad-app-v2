@@ -1,9 +1,17 @@
 console.log("loaded");
 var img=document.getElementById('me');
+var marginLeft=0;
+function moveLeft()
+{
+    marginLeft=marginLeft+10;
+    img.style.marginLeft=marginLeft + 'px';
+}
 img.onclick=function()
 {
+    var interval=setInterval(moveLeft,100)
     img.style.marginLeft='1px';
 };
+
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
