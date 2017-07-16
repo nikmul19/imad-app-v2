@@ -3,7 +3,7 @@ console.log("loaded");
 This is empty on purpose! Your code to build the resume will go here.
  */
  //$("#main").append("nikhil mulchandani");
- var userChoice = prompt("Do you choose rock, paper or scissors?");                  //rock paper scissors
+ /*var userChoice = prompt("Do you choose rock, paper or scissors?");                  //rock paper scissors
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
 	computerChoice = "rock";
