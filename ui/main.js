@@ -4,7 +4,7 @@ var marginLeft=0;
 function moveLeft()
 {
     if(img.style.marginLeft=='450px'){break;}
-    marginLeft=marginLeft+10;
+    marginLeft=marginLeft+1;
     img.style.marginLeft=marginLeft + 'px';
 }
 img.onclick=function()
