@@ -3,7 +3,7 @@ var img=document.getElementById('me');
 var marginLeft=0;
 function moveLeft()
 {
-    if(marginLeft==450)break;
+    if(img.style.marginLeft=='450px'){break;}
     marginLeft=marginLeft+10;
     img.style.marginLeft=marginLeft + 'px';
 }
