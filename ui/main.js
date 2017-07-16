@@ -3,13 +3,14 @@ var img=document.getElementById('me');
 var marginLeft=0;
 function moveLeft()
 {
+    if(img.style.marginLeft === '450px')break;
     marginLeft=marginLeft+1;
     img.style.marginLeft=marginLeft + 'px';
 }
 img.onclick=function()
 {
     var interval=setInterval(moveLeft,100)
-    img.style.marginLeft='1px';
+    //img.style.marginLeft='1px';
 };
 
 /*
