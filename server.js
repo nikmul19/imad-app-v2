@@ -7,7 +7,7 @@ var config={
     database:'nikmul19',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password:process.env.DB_PASSWORD
+    password:db-nikmul19-64930
     
 };
     
@@ -35,7 +35,7 @@ app.get('/test-db', function (req, res) {
         
         else {
     res.send(JSON.stringify(result))
-        }
+    }
     });
 });
 
