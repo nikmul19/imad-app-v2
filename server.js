@@ -8,7 +8,7 @@ var config={
     database:'nikmul19',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password:db-nikmul19-64930
+    password:'db-nikmul19-64930'
     
 };
     
