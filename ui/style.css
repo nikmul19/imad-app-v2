@@ -22,9 +22,10 @@ body {
 
 .data
 {
+    background-image:url("561.JPG");
     width: 300px;
     border: 2px solid green;
-    padding: 25px;
+    padding: 2px;
     border-radius:40px;
     margin: 2px;
 }
