@@ -29,3 +29,14 @@ body {
     border-radius:40px;
     margin: 20px;
 }
+.main
+{
+    display:inline-block;
+    margin-top:0px;
+    margin-left:410px;
+    margin-bottom: 20px;
+    max-width: 33%;
+    background: rgb(230, 240, 240);
+
+    padding: 10px 20px;"
+}
