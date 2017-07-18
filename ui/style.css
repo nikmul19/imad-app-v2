@@ -29,6 +29,13 @@ body {
     border-radius:40px;
     margin: 20px;
 }
+.drop
+{
+    
+    position: relative;
+    display: inline-block;
+
+}
 .dropdown-content {
     display: none;
     position: absolute;
