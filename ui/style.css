@@ -46,7 +46,7 @@ body {
     z-index: 1;
 }
 
-.drop:hover .dropdown-content {
+.drop:hover .drop-content {
     display: block;
 }
 .main
