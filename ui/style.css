@@ -22,7 +22,8 @@ body {
 
 .data
 {
-    background-color:blue;
-    max-width:400px;
-    border:red;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
