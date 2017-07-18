@@ -22,10 +22,10 @@ body {
 
 .data
 {
-    background-image:url("https://www.google.co.in/search?q=data&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi1-aCKq5LVAhVKHJQKHY98C_UQ_AUIDCgD&biw=1366&bih=662#imgrc=YaZdNFqO0a22sM:");
+    
     width: 300px;
     border: 2px solid green;
-    padding: 2px;
+    padding: 20px;
     border-radius:40px;
-    margin: 2px;
+    margin: 20px;
 }
