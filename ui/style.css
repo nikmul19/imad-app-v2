@@ -23,7 +23,8 @@ body {
 .data
 {
     width: 300px;
-    border: 25px solid green;
+    border: 2px solid green;
     padding: 25px;
+    border-radius:5px;
     margin: 25px;
 }
