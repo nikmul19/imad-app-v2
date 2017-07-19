@@ -23,7 +23,7 @@ body {
 .data
 {
     display:inline-block;
-    width: 300px auto;
+    width: 300px ;
     border: 2px solid green;
     padding: 20px auto;
     border-radius:40px;
@@ -34,7 +34,7 @@ body {
 {
     
     display:inline-block;
-    width: 300px auto;
+    width: 300px ;
     border: 2px 8B0000;
     padding: 20px auto;
     border-radius:40px;
