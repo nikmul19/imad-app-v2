@@ -23,22 +23,22 @@ body {
 .data
 {
     display:inline-block;
-    width: 300px;
+    width: 300px auto;
     border: 2px solid green;
-    padding: 20px;
+    padding: 20px auto;
     border-radius:40px;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .main
 {
     
     display:inline-block;
-    width: 300px;
+    width: 300px auto;
     border: 2px 8B0000;
-    padding: 20px;
+    padding: 20px auto;
     border-radius:40px;
-    margin: 20px;
+    margin: 20px auto;
     background: rgb(230, 240, 240);
 
 }
